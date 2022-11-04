@@ -6,46 +6,53 @@
 }
 body,html{
     height: 100%;
-        background-image: url(https://wallpapercave.com/wp/wp10695155.jpg);
-        height: 100vh;}
-
-    
-
-  .hero-img{
-    background-image: url(https://wallpapercave.com/wp/wp10695155.jpg);
+}
+.main{
+    width: 100%;
     height: 100vh;
+background-size: cover;
+    background-image: url(https://wallpapercave.com/wp/wp10271263.jpg);
+-webkit-background-size:cover;
+-moz-background-size:cover;
+}
+.main-content{
+    width: 500px;
+    height: 100%;
+    background-image:linear-gradient(to right,#004e90 0,rgba(0,78,144,0)100%) ;
 
-  }
+}
+    .main-title{
+        padding: 200px 0 0 40px;
+    }
+    .main-title h1{
+        font-family: cormoran;
+        font-size: 40px;
+        color:blanchedalmond;
+        margin-bottom: 20px;
+        line-height: 45px;
+    }
+    .main-title h2{
+        font-family: cormoran;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: cormoran;
+        color:white;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+    .main-title h3{
+   position: relative;
+   margin-left: 600px;
+   bottom:310px;
+   font-family: cormoran;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: cormoran;
+        color:white;
+        margin-bottom: 20px;
+        line-height: 32px;
 
-.card{
-    position: relative;
-    left: 30px;
-    bottom: 80px;
-
-
-}
-.background-img{
-    background-image: url(https://wallpapercave.com/wp/wp10616118.jpg);
-}
-.card-title{
-    background-color:gainsboro;
-    border-radius: 10px;
-    color: black;
-    font-family: cormoran;
-}
-.btn{
-    position:relative;
-    left: 50px;
-    border-radius: 20px;
-    font-family: cormoran;
-    color: antiquewhite;
-    background-color: black;
-    border: none;
-}
-.btn:hover{
-    background-color:antiquewhite;
-    color: black;
-}
+    }
 .footer{
     background-color:antiquewhite;
     position:absolute;
@@ -66,16 +73,4 @@ body,html{
     position: absolute;
 top: 0;
 left: 650px;
-}
-.card{
-    position:sticky;
-    top: 0;
-}
-.p{
-    position: relative;
-    left:600px;
-    bottom: 500px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: aliceblue;
 }
