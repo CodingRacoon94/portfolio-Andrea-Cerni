@@ -11,7 +11,7 @@ body,html{
     width: 100%;
     height: 100vh;
 background-size: cover;
-    background-image: url(https://wallpapercave.com/dwp2x/wp9905487.jpg);
+    background-image: url(https://wallpapercave.com/dwp2x/wp8093475.jpg);
 -webkit-background-size:cover;
 -moz-background-size:cover;
 }
@@ -36,9 +36,13 @@ background-size: cover;
         font-size: 24px;
         font-weight: 300;
         font-style: cormoran;
-        color:white;
+        color:black;
         margin-bottom: 20px;
         line-height: 32px;
+        background-color:gainsboro;
+        border-radius: 10px;
+
+    
     }
      .card{
 background: none;
@@ -76,3 +80,11 @@ background: none;
 top: 0;
 left: 650px;
 }
+.text{
+    position: absolute;
+    top: -1px;
+    font-family: cormoran;
+    margin-left: 1000px;
+    text-align: right;
+}
+

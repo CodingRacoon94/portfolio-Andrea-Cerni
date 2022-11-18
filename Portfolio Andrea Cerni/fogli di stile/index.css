@@ -30,6 +30,7 @@ position: relative;
 
 .footer{
     background-color:gainsboro;
+    font-family: cormoran;
     position:absolute;
     bottom:auto;
     margin: 0;
@@ -37,6 +38,7 @@ position: relative;
     height: 100px;
     width: 100%;
 }
+
 .h5{
     text-align: left;
     position: absolute;
@@ -48,4 +50,11 @@ position: relative;
     position: absolute;
 top: 0;
 left: 650px;
+}
+.text{
+    position: absolute;
+    top: -1px;
+    font-family: cormoran;
+    margin-left: 1000px;
+    text-align: right;
 }

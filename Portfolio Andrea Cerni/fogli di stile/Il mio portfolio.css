@@ -1,0 +1,109 @@
+.navbar{
+    font-family: "cormoran";
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0;
+}
+body,html{
+    height: 100%;
+}
+.main{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://wallpapercave.com/dwp2x/wp2351063.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+}
+
+.main-content{
+    width:auto;
+    height: 100%;
+
+    
+}
+
+.main-text{
+    font-family: cormoran;
+    color: black;
+    font-style:oblique;
+}
+
+.main-text h2{
+    color:white;
+    border: 16px;
+    border-radius: 10px;
+}
+h2{
+  background-color: black;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 15;
+    position: relative;
+top:30px
+
+}
+.row{margin: 0 -5px;}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background: none;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color:none;
+    border-radius: 16px;
+    border-color:aqua;
+    color:black;
+}
+.container{
+  background-color: antiquewhite;
+  border-radius: 16px;
+}
+  
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.footer{
+  background-color:gainsboro;
+  position:absolute;
+  bottom:auto;
+  margin: 0;
+  padding:0;
+  height: 100px;
+  width: 100%;
+}
+.h5{
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sci{
+  text-align: center;
+  position: absolute;
+  top: 0;
+left: 650px;
+}
+.text{
+  position: absolute;
+  top: -1px;
+  font-family: cormoran;
+  margin-left: 1000px;
+  text-align: right;
+}

@@ -4,7 +4,7 @@
     position: sticky;
     top: 0;
 }
-.body,html{
+body,html{
     height: 100%;
 }
 .main{
@@ -49,7 +49,7 @@ top:30px
   }
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
@@ -86,4 +86,11 @@ top:30px
     position: absolute;
 top: 0;
 left: 650px;
+}
+.text{
+    position: absolute;
+    top: -1px;
+    font-family: cormoran;
+    margin-left: 1000px;
+    text-align: right;
 }
