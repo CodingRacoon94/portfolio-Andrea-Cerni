@@ -38,3 +38,30 @@ font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: antiquewhite;
 }
+.testo-3{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: antiquewhite;
+}
+.testo-4{
+display: flex;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: antiquewhite;
+}
+.sottotitolo-3{
+    background-color: antiquewhite;
+
+}
+
+.container-4{
+    position: relative;
+}
+.img-2{
+position: relative;
+margin-left: 300px;
+}
+.container-fine{
+    position: relative;
+    background-color: antiquewhite;
+text-align: center;
+}
